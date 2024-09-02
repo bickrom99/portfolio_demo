@@ -1,0 +1,39 @@
+$primaryColor: #08a88a;
+$secondaryColor: #000000f6;
+$textColor: #4f4f4f;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  line-height: 1.3rem;
+  background: #f0f3ff !important;
+}
+img {
+  max-width: 100%;
+}
+h2 {
+  font-weight: 200 !important;
+  font-size: 2.5rem !important;
+}
+// Defult-animation Lift ~ animation property
+// Defult-animation Lift ~ animation property
+.lift {
+  box-shadow: 0 0.15rem 1.75rem 0 #21283226;
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.lift:hover {
+  transform: translateY(-0.3333333333rem);
+  transition: 350ms;
+}
+//Defult-py property
+.py-10 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}

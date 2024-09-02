@@ -1,0 +1,426 @@
+// Variable.scss
+@import "./variable";
+
+// Responsive Design here for Laptop, Tablet & Mobile
+// Responsive Design here for Laptop, Tablet & Mobile
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  //AboutPage_col1_img_resposive
+  #AboutPage_col1_img_resposive {
+    width: 31.62rem !important;
+    height: 30.37rem !important;
+  }
+  //AboutPage_second_col_resposive h2
+  #AboutPage_second_col_resposive h2 {
+    font-size: 2.2rem !important;
+  }
+  // Footer-logo responsive
+  .logo_brand2 {
+    width: 50% !important;
+  }
+}
+// Responsive 992px-768px
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  //AboutPage_col1_img_resposive
+  #AboutPage_col1_img_resposive {
+    height: 25rem;
+    width: 25rem;
+    margin-top: -3rem;
+    margin: auto;
+  }
+  //Skill Page code-man img
+  .code_img {
+    height: 14rem !important;
+  }
+  // Contact Page google-map responsive
+  .google_map {
+    height: 21.2rem !important;
+  }
+  // Contact Page contact-hand img
+  .contact-hand {
+    height: 10rem !important;
+  }
+  // contact_txt_responsive
+  .contact_txt_responsive {
+    font-size: 0.9rem !important;
+  }
+  // contact_txt_responsive2
+  .contact_txt_responsive2 {
+    font-size: 0.8rem !important;
+  }
+  // Footer-logo responsive
+  .logo_brand2 {
+    width: 40% !important;
+  }
+}
+// Responsive 768px-776px
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  // AboutPage work Experience text-responsive
+  #text_gap {
+    font-size: 0.9rem;
+  }
+  // Skill page code img
+  .code_img {
+    height: 14rem !important;
+  }
+}
+// Responsive 768px border-rounded_svg
+@media screen and (max-width: 768px) {
+  //svg-border-rounded2
+  #section1_border_rounded_2 {
+    height: 2.2rem !important;
+  }
+  #port_project_txt {
+    font-size: 1.7rem !important;
+  }
+  // Skill page txt responsive
+  #About_page_badge h4 {
+    font-size: 1rem !important;
+    font-weight: 800;
+  }
+}
+//Responsive 576px here
+@media screen and (max-width: 576px) {
+  //AboutPage_second_col_resposive h2
+  #AboutPage_second_col_resposive h2 {
+    font-size: 2rem !important;
+    font-weight: 400;
+    margin-top: 2rem !important;
+  }
+  // Skill page code img
+  .code_img {
+    height: 12rem !important;
+    margin-bottom: 2rem !important;
+  }
+  // Contact Page google-map responsive
+  .google_map {
+    height: 16rem !important;
+  }
+}
+//svg-border-rounded
+.svg-border-rounded {
+  color: #ffffff;
+}
+.svg-border-rounded svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+}
+
+//Defult-shadow
+.shadow {
+  box-shadow: 0px 0px 10px 0px #e6e6e6;
+}
+//all-text-design
+.all-text-design {
+  text-align: justify;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: $textColor !important;
+}
+/*======Nav-menu design start here======*/
+// nav logo brand design here
+.logo_brand {
+  width: 100px;
+  color: black;
+}
+//nav_box_shadow
+#nav_box_shadow {
+  border-bottom: 1px solid #ebebeb;
+  box-shadow: 0 0 10px 0 rgb(225, 223, 223);
+  background: #ffffff;
+}
+//nav_btn
+#nav_btn {
+  gap: 1rem !important;
+}
+//first_media_icons
+#first_media_icons {
+  gap: 20px !important;
+}
+// ofcanvas menu
+#offcanvasExample {
+  width: 18rem;
+  overflow-y: auto;
+  padding-left: 1rem;
+}
+/*=====header section design here======*/
+header {
+  height: 90vh;
+  width: 100%;
+}
+// Header-img
+.header_img {
+  height: 300px;
+}
+//header_section_text1
+#header_section_text1 {
+  font-size: 14px !important;
+}
+/*==== section1 design here======*/
+/*==== section1 design here======*/
+//About_page_badge
+#About_page_badge {
+  color: $primaryColor !important;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Tangerine", cursive;
+}
+
+//Line - Divider design work here
+.line-divider {
+  background-color: black;
+  height: 4px;
+  width: 10%;
+}
+// line_divider_responsive
+#line_divider_responsive {
+  margin-top: -20px;
+}
+//card-icon-padding
+.card-icon-padding {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+// icon- stack design here
+.icon-stack {
+  background: #dbeafe;
+  text-align: center;
+  padding: 0 5px;
+  border-radius: 5px;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+  &:hover {
+    background: $primaryColor;
+  }
+}
+
+//card_gap
+#card_gap {
+  gap: 15% !important;
+}
+
+// text_gap
+#text_gap {
+  gap: 10px !important;
+  font-weight: 600 !important;
+}
+//icon_green
+.icon_green {
+  color: #01ad01;
+}
+//section1_border_rounded_2
+#section1_border_rounded_2 {
+  height: 80px;
+  width: 100%;
+  color: #f0f3ff;
+}
+
+/*==== section2 with portfolio-website design here======*/
+/*==== section2 with portfolio-website design here======*/
+.bg-body-primary {
+  background: #f0f3ff;
+  height: auto;
+}
+//port_project_txt
+#port_project_txt {
+  font-size: 2rem;
+}
+//main-open-live project design here
+.open-live {
+  background: transparent;
+  &:hover {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: #01ad01;
+  }
+}
+
+// Portfolio-pro -1
+#portfulio_item1 {
+  background-image: url("/img/portfulio\ 1.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18rem;
+  width: 100%;
+  color: transparent;
+}
+// All Pro hover
+#portfulio_item1:hover {
+  backdrop-filter: blur(2px);
+  background: #ececec98;
+  color: black;
+}
+// Portfolio-pro -2
+#portfulio_item2 {
+  @extend #portfulio_item1;
+  background-image: url("/img/portfulio\ restutent\ pro-6.png");
+}
+// Portfolio-pro -3
+#portfulio_item3 {
+  @extend #portfulio_item1;
+  background-image: url("/img/portfulio\ 2.png");
+  background-position: top center !important;
+}
+// Portfolio-pro -4
+#portfulio_item4 {
+  @extend #portfulio_item1;
+  background-image: url("/img/portfulio\ 3.png");
+}
+// Portfolio-pro -5
+#portfulio_item5 {
+  @extend #portfulio_item1;
+  background-image: url("/img/portfulio\ bussiness\ pro-4.png");
+}
+// Portfolio-pro -6
+#portfulio_item6 {
+  @extend #portfulio_item1;
+  background-image: url("/img/portfulio\ 5.png");
+}
+// Skill page section-3 design here ====/
+// Skill page section-3 design here ====/
+.progress-bar {
+  width: 85%;
+  visibility: visible;
+  animation-duration: 0.5s;
+  animation-delay: 0.3s;
+  animation-name: fadeInLeft;
+}
+.progress-charts {
+  overflow: hidden;
+}
+//progress
+.progress {
+  height: 15px;
+  display: flex;
+  /* justify-content: start; */
+  align-items: center;
+}
+//progress_heading
+.progress_heading {
+  color: #4f4f4f;
+  font-size: 0.7rem;
+}
+// percent_label
+.percent_label {
+  font-size: 0.6rem;
+  text-align: end;
+}
+.progress-bar {
+  height: 10px;
+  border-radius: 5px;
+}
+
+// code_img
+.code_img {
+  height: 18rem;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #c2c1c1;
+}
+//===section-4 with (Contact form )page Design here
+//===section-4 with (Contact form )page Design here
+.google_map {
+  width: 100%;
+  height: 23.44rem;
+  border-radius: 10px;
+}
+// contact_form_width
+#contact_form_width {
+  width: 80%;
+  margin: auto;
+}
+
+// contact-hand
+.contact-hand {
+  height: 13rem;
+}
+// contact_txt_responsive:hover
+.contact_txt_responsive:hover {
+  color: #1947db !important;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.contact_txt_responsive2 {
+  @extend .contact_txt_responsive;
+}
+//====Footer_section design work her===
+//====Footer_section design work her===
+#Footer_section {
+  background: #1d3250cb;
+  height: auto;
+  padding: 1rem;
+  width: 100%;
+}
+// logo_brand2
+.logo_brand2 {
+  width: 50%;
+}
+// Footer Media Quary
+ul.footer-media-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+.footer-media-icon li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.footer-media-icon li a {
+  text-decoration: none;
+  color: white;
+}
+//Footer Pages-hover
+.Pages-hover:hover {
+  color: #1947db !important;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+// media-hover
+.media-hover:hover {
+  color: #1b1a35 !important;
+}
+.admin-info-text-animation {
+  color: black;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 0.6;
+}
+.font-size {
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+}
+.admin-info-text-animation::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background-color: #f0f3ff;
+  left: 0%;
+  border-left: 2px solid #fff;
+  animation: text-animation 2s steps(10) infinite alternate;
+}
+@keyframes text-animation {
+  to {
+    left: 100%;
+  }
+  from {
+    right: 50%;
+  }
+}
+
+#footer_img {
+  font-size: 1.5rem;
+  color: white;
+}
+#footer_img img {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bickrom99</title>
+    <!-- min.css link here -->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!-- favicon link here -->
+    <link rel="shortcut icon" href="img/avataaars.svg" type="image/x-icon" />
+    <!-- BOOTSTRAP CDN HERE-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Google font-tangerine cdn here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Second-google font cdn here -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Tangerine:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--=== navbar work here ===-->
+    <!--=== navbar work here ===-->
+    <nav
+      id="nav_box_shadow"
+      class="navbar navbar-expand-lg bg-white fixed-top scrolled"
+    >
+      <div class="container px-2">
+        <a class="navbar-brand" href="index.html"
+          ><img class="logo_brand" src="img/logo brand.png" alt=""
+        /></a>
+        <!-- Nab bars-icon with responsive work here -->
+        <div
+          id="nav_btn"
+          class="d-inline-flex g-4 align-items-center justify-content-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-brightness-high d-lg-none d-md-none"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+            />
+          </svg>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="offcanvas"
+            href="#offcanvasExample"
+            role="button"
+            aria-controls="offcanvasExample"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <!-- nav collapse here -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#AboutPageLink">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#ServicePageLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Service</a
+              >
+              <ul class="dropdown-menu shadow border-0">
+                <!-- Portfolio website -->
+                <li>
+                  <a
+                    class="dropdown-item d-inline-flex justify-content-between align-items-center"
+                    href="#"
+                  >
+                    Portfolio Web
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <!-- Business Website  -->
+                <li>
+                  <a
+                    class="dropdown-item d-inline-flex justify-content-between align-items-center"
+                    href="#"
+                  >
+                    Business Web
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <!-- E-Commerse Website -->
+                <li>
+                  <a
+                    class="dropdown-item d-inline-flex justify-content-between align-items-center"
+                    href="#"
+                  >
+                    E-Commerse Web
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- Contact page -->
+            <a class="nav-link" href="#ContactPageLink">Contact</a>
+          </ul>
+          <!-- page-top media-quary -->
+          <div class="row g-lg-4">
+            <div class="col">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-brightness-high"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+                />
+              </svg>
+            </div>
+            <div class="col d-lg-inline-block d-none">
+              <a
+                href="https://www.linkedin.com/in/bickrom-chandro-sen-2b40502b4/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-linkedin"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                  /></svg
+              ></a>
+            </div>
+            <div class="col d-lg-inline-block d-none">
+              <a href="https://github.com/bickrom99">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-github"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--=== Offcanvas navbar ====-->
+    <div
+      class="offcanvas offcanvas-start text-white"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <a class="navbar-brand" href="#"
+          ><img class="logo_brand" src="img/logo brand.png" alt=""
+        /></a>
+        >
+        <button
+          type="button"
+          class="btn-close text-white"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav m-auto text-black mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#AboutPageLink">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#ServicePageLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Service</a
+            >
+            <ul class="dropdown-menu shadow border-0">
+              <!-- Portfolio website -->
+              <li>
+                <a
+                  class="dropdown-item d-inline-flex justify-content-between align-items-center"
+                  href="#"
+                >
+                  Portfolio Web
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <!-- Business Website  -->
+              <li>
+                <a
+                  class="dropdown-item d-inline-flex justify-content-between align-items-center"
+                  href="#"
+                >
+                  Business Web
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <!-- E-Commerse Website -->
+              <li>
+                <a
+                  class="dropdown-item d-inline-flex justify-content-between align-items-center"
+                  href="#"
+                >
+                  E-Commerse Web
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!-- Contact page -->
+          <a class="nav-link" href="#ContactPageLink">Contact</a>
+        </ul>
+      </div>
+    </div>
+
+    <!--==== Header section work here ====-->
+    <!--==== Header section work here ====-->
+    <header class="py-10 position-relative d-flex align-items-center">
+      <div class="container px-4">
+        <div
+          class="row gx-5 justify-content-center align-items-center text-center"
+        >
+          <div class="col m-auto">
+            <!-- wollcome text -->
+            <span id="header_section_text1" class="text-uppercase fw-bolder">
+              Welcome to my
+              <span class="text-success">Website!</span>
+            </span>
+            <!-- Full name -->
+            <h2 class="fw-bold mb-3">I'm Bickrom Chandro Sen</h2>
+            <div>
+            <h2 class="font-size">Front-end Web Developer || WordPress Designer</h2>
+          </div>
+            <a
+              href="#section1_bg"
+              class="btn btn-outline-info mt-lg-2 mt-4 px-5 py-2 border-2"
+            >
+              About Me
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-down-short"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- border_rounde bottom work here -->
+      <div class="svg-border-rounded">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 144.54 17.34"
+          preserveAspectRatio="none"
+          fill="currentColor"
+        >
+          <path
+            d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"
+          ></path>
+        </svg>
+      </div>
+    </header>
+
+    <!--===Section-1 with About Me page work here ===-->
+    <!--===Section-1 with About Me page work here ===-->
+    <section id="section1_bg" class="bg-white">
+      <!-- main container section1 -->
+      <div id="AboutPageLink" class="container">
+        <!-- About page badge here -->
+        <div class="row text-center pt-4">
+          <div class="col-12">
+            <span id="About_page_badge" class="px-4 py-2">About Me</span>
+          </div>
+          <!-- Line-Divider design work here -->
+          <div
+            id="line_divider_responsive"
+            class="d-flex flex-collum justify-content-center align-items-center"
+          >
+            <div class="line-divider"></div>
+            <div class="line-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-star-fill text-black m-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <div class="line-divider"></div>
+          </div>
+        </div>
+        <!-- second_contaier section1 -->
+        <div class="pt-5 pb-5">
+          <div class="row gx-5 m-auto justify-content-center text-start">
+            <!-- section-1 col-num-1 -->
+            <div class="col-lg-6 col-12">
+              <img id="AboutPage_col1_img_resposive" src="img/programming.svg" alt="" />
+            </div>
+            <!-- section-1 col-num-2 -->
+            <div id="AboutPage_second_col_resposive" class="col-lg-6 col-12">
+              <h2 class="mb-3 mt-lg-0 fw-bold mt-3">I love to Design new thing</h2>
+              <p class="all-text-design mb-4">
+                Hi, I'm Bickrom Chandro Sen , a Frontend Web Developer with over
+                1 years of practical experience in Web Design and Development
+                industry. I have extensive experience in designing and
+                developing creatively attractive websites using HTML, CSS, Sass,
+                Bootstrap, JavaScript & WordPress Design as well as solving
+                problems quickly
+              </p>
+              <!-- card work her -->
+              <div class="row gx-5 justify-content-between align-items-center">
+                <!-- card-first work here -->
+                <!-- card-first work here -->
+                <div class="col-sm-6 col-7 m-auto">
+                  <div class="card card-link">
+                    <div
+                      id="card_gap"
+                      class="card-body d-flex justify-content-start"
+                    >
+                      <div class="icon-stack">
+                        <svg
+                          class="card-icon-padding"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="row">
+                        <div class="col text-start">
+                          <div class="row text-success fw-semibold">150+</div>
+                          <div class="row">Project Complete</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- card-second work here -->
+                <!-- card-second work here -->
+                <div class="col-sm-6 col-5 m-auto">
+                  <div class="card card-link">
+                    <div
+                      id="card_gap"
+                      class="card-body d-flex justify-content-start"
+                    >
+                      <div class="icon-stack">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="card-icon-padding w-6 h-6"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="row">
+                        <div class="col text-start">
+                          <div class="row text-success fw-semibold">2+</div>
+                          <div class="row">Experience</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Service Experience Txt & first-line here -->
+              <div>
+                  <!-- first_work_exple_txt -->
+                <div class="row mt-4 m-auto">
+                  <!-- first_work_exple_txt -->
+                  <div
+                    id="text_gap"
+                    class="col-sm-6 mb-sm-0 mb-2 d-flex fw-semibold justify-content-start"
+                  >
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-check-square icon_green"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                        />
+                      </svg>
+                    </div>
+                    <div>Create an attractive website</div>
+                  </div>
+                  <div
+                    id="text_gap"
+                    class="col-sm-6 mb-sm-0 mb-2  d-flex fw-semibold justify-content-start"
+                  >
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-check-square icon_green"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                        />
+                      </svg>
+                    </div>
+                    <div>Responsive website Design</div>
+                  </div>
+                </div>
+                <!-- Service Experience Txt & second-line here -->
+                <div class="row mt-sm-4 m-auto">
+                  <div
+                    id="text_gap"
+                    class="col-sm-6 mb-sm-0 mb-2  d-flex fw-semibold justify-content-start"
+                  >
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-check-square icon_green"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                        />
+                      </svg>
+                    </div>
+                    <div>I Design with WordPress</div>
+                  </div>
+                  <!-- second_work_exple_txt -->
+                  <div
+                    id="text_gap"
+                    class="col-sm-6 d-flex fw-semibold justify-content-start"
+                  >
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-check-square icon_green"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                        />
+                      </svg>
+                    </div>
+                    <div>Quickly solution problem</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- border_rounder-2 bottom work here -->
+      <div class="svg-border-rounded2">
+        <svg
+          id="section1_border_rounded_2"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 144.54 17.34"
+          preserveAspectRatio="none"
+          fill="currentColor"
+        >
+          <path
+            d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!--===Section-2 with (My portfulio website) page work here ===-->
+    <!--===Section-2 with (My portfulio website) page work here ===-->
+    <section id="ServicePageLink" class="bg-body-primary">
+      <div class="container text-center">
+        <!-- portfolio txt design part -->
+        <div class="row text-center pt-4">
+          <div class="col-12">
+            <span id="About_page_badge" class="px-4 py-2">My Portfolio</span>
+            <!-- Line-Divider design work here -->
+            <div
+              id="line_divider_responsive"
+              class="d-flex flex-collum justify-content-center align-items-center"
+            >
+              <div class="line-divider"></div>
+              <div class="line-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-star-fill text-black m-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                  />
+                </svg>
+              </div>
+              <div class="line-divider"></div>
+            </div>
+            <span id="port_project_txt" class="fw-semibold"
+              >My Recent Projects</span
+            >
+          </div>
+        </div>
+        <!-- My all project here -->
+        <!-- my all project here -->
+        <div class="row mt-5 text-center">
+          <!-- img-1 -->
+          <div class="col-lg-4 col-sm-6 col-10 m-auto mb-5">
+            <h6 class="mb-3">Portfolio Website</h6>
+            <a
+              href="https://bickrom99.github.io/Digital-business-card1/"
+              id="portfulio_item1"
+              class="rounded-2 text-decoration-none lift d-flex justify-content-center align-items-center"
+            >
+              <span class="open-live">
+                Live Preview
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-eye-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                  <path
+                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <!-- img-2 -->
+          <div class="col-lg-4 col-sm-6 col-10 m-auto mb-5">
+            <h6 class="mb-3">Resturent Website</h6>
+            <a
+              href="http://127.0.0.1:5503/index.html"
+              id="portfulio_item2"
+              class="rounded-2 text-decoration-none lift d-flex justify-content-center align-items-center"
+            >
+              <span class="open-live">
+                Live Preview
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-eye-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                  <path
+                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <!-- img-3 -->
+          <div class="col-lg-4 col-sm-6 col-10 m-auto mb-5">
+            <h6 class="mb-3">Digital Business Card</h6>
+            <a
+              href="http://127.0.0.1:5503/Disital%20Business%20card/index.html"
+              id="portfulio_item3"
+              class="rounded-2 text-decoration-none lift d-flex justify-content-center align-items-center"
+            >
+              <span class="open-live">
+                Live Preview
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-eye-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                  <path
+                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <!-- img-4 -->
+          <div class="col-lg-4 col-sm-6 col-10 m-auto mb-5">
+            <h6 class="mb-3">E-commerce Website</h6>
+            <a
+              href="http://127.0.0.1:5502/index.html"
+              id="portfulio_item4"
+              class="rounded-2 text-decoration-none lift d-flex justify-content-center align-items-center"
+            >
+              <span class="open-live">
+                Live Preview
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-eye-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                  <path
+                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <!-- img-5 -->
+          <div class="col-lg-4 col-sm-6 col-10 m-auto mb-5">
+            <h6 class="mb-3">Business Website</h6>
+            <a
+              href="https://demo-61.woovinapro.com/"
+              id="portfulio_item5"
+              class="rounded-2 text-decoration-none lift d-flex justify-content-center align-items-center"
+            >
+              <span class="open-live">
+                Live Preview
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-eye-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                  <path
+                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <!-- img-6 -->
+          <div class="col-lg-4 col-sm-6 col-10 m-auto mb-5">
+            <h6 class="mb-3">Others Portfolio Web</h6>
+            <a
+              href="http://127.0.0.1:5502/Multipurpose.html"
+              id="portfulio_item6"
+              class="rounded-2 text-decoration-none lift d-flex justify-content-center align-items-center"
+            >
+              <span class="open-live">
+                Live Preview
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-eye-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                  <path
+                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===section-3 with (My Skill Website )page work here -->
+    <!-- ===section-3 with (My Skill Website )page work here -->
+    <section id="section1_bg" class="bg-white">
+      <!-- main container section1 -->
+      <div class="container mb-4">
+        <!-- skill page badge here -->
+        <div class="row text-center pt-4">
+          <div class="col-12">
+            <span id="About_page_badge" class="px-4 py-2">My Skill</span>
+            <h4>My Work Skills</h4>
+          </div>
+          <!-- Line-Divider design work here -->
+          <div
+            id="line_divider_responsive"
+            class="d-flex flex-collum justify-content-center align-items-center"
+          >
+            <div class="line-divider"></div>
+            <div class="line-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-star-fill text-black m-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <div class="line-divider"></div>
+          </div>
+        </div>
+        <!-- work skill flex-collum here -->
+        <!-- work skill flex-collum here -->
+        <div
+          class="row mt-4 gx-5 m-auto justify-content-center align-items-center text-center"
+        >
+          <!-- col-1 -->
+          <div class="col-md-6 col-sm-7 col-10 m-auto">
+            <img class="code_img" src="img/technology-1283624_1280.jpg" alt="technology img" />
+          </div>
+          <!-- col-2 with progresbar work here -->
+          <div class="col-md-6 col-sm-5 col-8 m-auto ">
+            <!-- Html skill -->
+            <div class="progress-charts text-start">
+              <h6 class="progress_heading text-start">HTML</h6>
+              <div class="progress">
+                <div
+                  class="progress-bar wow fadeInLeft bg-success"
+                  data-wow-duration="0.5s"
+                  data-wow-delay=".3s"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 95%"
+                >
+                  <span class="percent_label">95%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Css & Sass skill -->
+            <div class="progress-charts pt-2 text-start">
+              <h6 class="progress_heading text-start">CSS & SASS</h6>
+              <div class="progress">
+                <div
+                  class="progress-bar wow fadeInLeft bg-success"
+                  data-wow-duration="0.5s"
+                  data-wow-delay=".3s"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span class="percent_label">90%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Bootstrap & Tailwind Css -->
+            <div class="progress-charts pt-2 text-start">
+              <h6 class="progress_heading text-start">
+                Bootstrap & Tailwind CSS
+              </h6>
+              <div class="progress">
+                <div
+                  class="progress-bar wow fadeInLeft bg-success"
+                  data-wow-duration="0.5s"
+                  data-wow-delay=".3s"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 85%"
+                >
+                  <span class="percent_label">85%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Javascript skill -->
+            <div class="progress-charts pt-2 text-start">
+              <h6 class="progress_heading heading-h6">JavaScript</h6>
+              <div class="progress">
+                <div
+                  class="progress-bar wow fadeInLeft bg-success"
+                  data-wow-duration="0.5s"
+                  data-wow-delay=".3s"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 70%"
+                >
+                  <span class="percent_label">70%</span>
+                </div>
+              </div>
+            </div>
+            <!-- WordPress skill -->
+            <div class="progress-charts pt-2 text-start">
+              <h6 class="progress_heading heading-h6">
+                WordPress Design(Elementer Pro)
+              </h6>
+              <div class="progress">
+                <div
+                  class="progress-bar wow fadeInLeft bg-success"
+                  data-wow-duration="0.5s"
+                  data-wow-delay=".3s"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 80%"
+                >
+                  <span class="percent_label">80%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--skill page border_rounder-2 bottom work here -->
+      <div class="svg-border-rounded2">
+        <svg
+          id="section1_border_rounded_2"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 144.54 17.34"
+          preserveAspectRatio="none"
+          fill="currentColor"
+        >
+          <path
+            d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- ===section-4 with (Contact form )page work here -->
+    <!-- ===section-4 with (Contact form )page work here -->
+    <section id="ContactPageLink" class="bg-body-primary">
+      <!-- main container section4 -->
+      <div class="container">
+        <!-- Contact page badge here -->
+        <div class="row text-center pt-4">
+          <div class="col-12">
+            <span id="About_page_badge" class="px-4 py-2">Contact Me</span>
+            <h4>Sent Message Me</h4>
+          </div>
+          <!-- Line-Divider design work here -->
+          <div
+            id="line_divider_responsive"
+            class="d-flex flex-collum justify-content-center align-items-center"
+          >
+            <div class="line-divider"></div>
+            <div class="line-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-star-fill text-black m-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <div class="line-divider"></div>
+          </div>
+        </div>
+        <!-- second_contaier section4 -->
+        <div id="contact_form_width" class="pt-3 pb-5">
+          <div class="row gx-5 m-auto justify-content-center text-start">
+            <!-- section-4 col-num-1 -->
+            <div class="col-md-6 d-md-block d-sm-none mb-sm-0 mb-4 m-auto">
+              <h6 class="text-start text-uppercase">My Location</h6>
+              <iframe
+                class="google_map"
+                id="google_map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57498.0185337851!2d89.22080925113372!3d25.749873663909757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e32de6fca6019b%3A0x9fa496e687f818c8!2sRangpur!5e0!3m2!1sen!2sbd!4v1711806708435!5m2!1sen!2sbd"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <!-- section-4 col-num-2 -->
+            <div class="col-md-6 col-12 m-auto">
+              <h6 class="text-start text-uppercase">Contact Me</h6>
+              <div class="card">
+                <img
+                  src="img/contact-hand.webp"
+                  class="card-img-top pt-3 ps-4 pe-4 contact-hand"
+                  alt="contact-hand"
+                />
+                <!-- card body -->             
+                <div class="card-body p-4">
+                  <h6 class="fw-bold text-success">
+                    Bickrom Chandro Sen
+                    <span class="badge text-bg-dark">web developer</span>
+                  </h6>
+                  <!-- main contact-menu here -->
+                   <div class="col">
+                    <!-- Phone Number -->
+                    <div class="row mb-2 contact_txt_responsive">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                        </svg>
+                        +8801518993773
+                      </span>
+                    </div>
+                    <!-- Email -->
+                    <div class="row mb-2 contact_txt_responsive">
+                      <span class="d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                          <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765zM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516M0 13.373l5.693-3.163L0 6.873z"/>
+                        </svg>
+                        <span class="ps-2">bickromsen99@gmail.com</span>
+                      </span>
+                    </div>
+                    <!-- Location -->
+                    <div class="row mb-2 contact_txt_responsive">
+                      <span class="d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                        </svg>
+                        <span class="ps-2">Rangpur city, Bangladesh</span>
+                      </span>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- border_rounder-2 bottom work here -->
+      <!-- <div class="svg-border-rounded2">
+        <svg
+          id="section1_border_rounded_2"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 144.54 17.34"
+          preserveAspectRatio="none"
+          fill="currentColor"
+        >
+          <path
+            d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"
+          ></path>
+        </svg>
+      </div> -->
+    </section>
+    <!-- ====Footer section work here==== -->
+    <!-- ====Footer section work here==== -->
+    <section class="footer">
+     <div id="Footer_section" class="container-fluid">
+      <div class="container">
+        <!-- row-divition -->
+        <div class="row gx-3 m-auto">
+          <!-- media-quary here -->
+          <div class="col-lg-4 col-md-10 col-12 text-start mt-4">
+            <!-- secound logo brand -->
+            <a id="footer_img" class="navbar-brand " href="/index.html"
+          > <img src="img/footer_user_logo.png" alt="">bickrom99</a>
+          <!-- About me-->
+            <p class="text-light mt-3">I have professional experience in website design
+              and development with an IT institute and as
+              a freelancer</p>
+              <!-- contact area -->
+              <div class="col text-light">
+                <!-- Phone Number -->
+                <div class="row mb-2 contact_txt_responsive">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg>
+                    +8801518993773
+                  </span>
+                </div>
+                <!-- Email -->
+                <div class="row mb-2 contact_txt_responsive">
+                  <span class="d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                      <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765zM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516M0 13.373l5.693-3.163L0 6.873z"/>
+                    </svg>
+                    <span class="ps-2">bickromsen99@gmail.com</span>
+                  </span>
+                </div>
+                <!-- Location -->
+                <div class="row mb-2 contact_txt_responsive">
+                  <span class="d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                    </svg>
+                    <span class="ps-2">Rangpur city, Bangladesh</span>
+                  </span>
+                </div>
+               </div>
+          </div>    
+          <!-- footer-right Extra-col work -->
+          <div class="col-lg-7 col-12 mt-5 m-auto ">
+            <div class="row gx-3 m-auto">
+              <!-- All Page -->
+              <div class="col-lg-4 col-sm-6 col-12 mb-sm-0 mb-5 m-auto text-start text-white">
+
+                <h4>Explore Link</h4>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link Pages-hover active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link Pages-hover" href="#AboutPageLink">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link Pages-hover" href="#ServicePageLink">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link Pages-hover" href="#ContactPageLink">Contact</a>
+                  </li>
+                </ul>
+              </div>
+             <!-- All Service -->
+             <div class="col-lg-4 col-sm-6 col-12 m-auto text-start text-white">
+              <h4>My Service</h4>
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link Pages-hover active" aria-current="page" href="#">Web Design & Develop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link Pages-hover" href="#">WordPress Design</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link Pages-hover" href="#">WordPress Customize</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link Pages-hover" href="#">Digital Business Card </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Social-media -->
+              <div class="col-lg-4 col-sm-6 col-12 m-auto mt-5 text-center">
+                <h4 class="text-center text-white">Social Media</h4>
+                 <ul class="footer-media-icon">
+                  <!-- Linkedin -->
+                  <li><a class="media-hover" href="https://www.linkedin.com/in/bickrom99/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                    </svg>
+                  </a></li>
+                  <!-- facebook -->
+                  <li><a class="media-hover" href="https://www.facebook.com/bickrom99">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                    </svg>
+                  </a></li>
+                  <!-- github -->
+                  <li><a class="media-hover" href="https://github.com/bickrom99">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                    </svg>
+                  </a></li>
+                  <!-- twitter -->
+                  <li><a class="media-hover" href="https://twitter.com/bickrom99">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                    </svg>
+                  </a></li>
+                 </ul>
+              </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+    <!-- Footer All CopyRight -->
+    <section class="footer_end">
+      <div class="container-fluid text-center bg-dark p-3">
+        <p class="text-light">2024 All rights Reserved.</p>
+      </div>
+    </section>
+    <!-- BOOTSTRAP CDN HERE -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+<!-- Bikrom -->
